@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pkk_project/Splash/splash_screen.dart';
+import 'package:pkk_project/Boarding/boarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,10 +14,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+        scaffoldBackgroundColor: Color(0xFFFFEDD7),
       ),
-      home: SplashScreen(),
+      home: BoardingScreen(),
     );
   }
 }
