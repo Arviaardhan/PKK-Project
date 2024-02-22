@@ -2,105 +2,105 @@ import 'package:pkk_project/models/question.dart';
 
 const List<Question> questions = [
   Question(
-    question: '1. What is the capital of France?',
-    correctAnswerIndex: 1,
-    options: [
-      'a) Madrid',
-      'b) Paris',
-      'c) Berlin',
-      'd) Rome',
-    ],
-  ),
-  Question(
-    question: '2. In what continent is Brazil located?',
-    correctAnswerIndex: 3,
-    options: [
-      'a) Europe',
-      'b) Asia',
-      'c) North America',
-      'd) South America',
-    ],
-  ),
-  Question(
-    question: '3. What is the largest planet in our solar system?',
-    correctAnswerIndex: 1,
-    options: [
-      'a) Earth',
-      'b) Jupiter',
-      'c) Saturn',
-      'd) Venus',
-    ],
-  ),
-  Question(
-    question: '4. What is the longest river in the world?',
-    correctAnswerIndex: 0,
-    options: [
-      'a) Nile',
-      'b) Amazon',
-      'c) Mississippi',
-      'd) Danube',
-    ],
-  ),
-  Question(
-    question: '5. Who is the main character in the Harry Potter series?',
+    question: '1. What is the past tense of the verb "eat"?',
     correctAnswerIndex: 2,
     options: [
-      'a) Hermione Granger',
-      'b) Ron Weasley',
-      'c) Harry Potter',
-      'd) Neville Longbottom',
+      'a) eated',
+      'b) eat',
+      'c) ate',
+      'd) eaten',
     ],
   ),
   Question(
-    question: '6. What is the smallest planet in our solar system?',
-    correctAnswerIndex: 3,
-    options: [
-      'a) Venus',
-      'b) Mars',
-      'c) Earth',
-      'd) Mercury',
-    ],
-  ),
-  Question(
-    question: '7. Who wrote the play Romeo and Juliet?',
-    correctAnswerIndex: 0,
-    options: [
-      'a) William Shakespeare',
-      'b) Oscar Wilde',
-      'c) Jane Austen',
-      'd) Charles Dickens',
-    ],
-  ),
-  Question(
-    question: '8. What is the highest mountain in the world?',
+    question: '2. Which of the following is a modal verb?',
     correctAnswerIndex: 1,
     options: [
-      'a) Mont Blanc',
-      'b) Everest',
-      'c) Kilimanjaro',
-      'd) Aconcagua',
+      'a) walk',
+      'b) can',
+      'c) running',
+      'd) jumped',
+    ],
+  ),
+  Question(
+    question: '3. What is the opposite of the adjective "happy"?',
+    correctAnswerIndex: 0,
+    options: [
+      'a) sad',
+      'b) angry',
+      'c) joyful',
+      'd) excited',
+    ],
+  ),
+  Question(
+    question: '4. Which of the following is a synonym for the word "big"?',
+    correctAnswerIndex: 3,
+    options: [
+      'a) small',
+      'b) tiny',
+      'c) little',
+      'd) large',
+    ],
+  ),
+  Question(
+    question: '5. What is the plural form of the noun "child"?',
+    correctAnswerIndex: 1,
+    options: [
+      'a) childs',
+      'b) children',
+      'c) childes',
+      'd) child',
+    ],
+  ),
+  Question(
+    question: '6. Which of the following is a preposition?',
+    correctAnswerIndex: 2,
+    options: [
+      'a) jump',
+      'b) happy',
+      'c) on',
+      'd) run',
+    ],
+  ),
+  Question(
+    question: '7. What is the present participle of the verb "sing"?',
+    correctAnswerIndex: 1,
+    options: [
+      'a) sang',
+      'b) singing',
+      'c) sings',
+      'd) sung',
+    ],
+  ),
+  Question(
+    question: '8. Which of the following is an adverb?',
+    correctAnswerIndex: 3,
+    options: [
+      'a) book',
+      'b) quickly',
+      'c) table',
+      'd) slowly',
     ],
   ),
   Question(
     question:
-    '9. What is the name of the famous painting by Leonardo da Vinci that depicts a woman?',
-    correctAnswerIndex: 3,
+    '9. Which of the following is a conjunction?',
+    correctAnswerIndex: 0,
     options: [
-      'a) Starry Night',
-      'b) The Persistence of Memory',
-      'c) The Last Supper',
-      'd) Mona Lisa',
+      'a) and',
+      'b) play',
+      'c) happy',
+      'd) quickly',
     ],
   ),
   Question(
     question:
-    '10. What is the name of the famous painting by Leonardo da Vinci that depicts a woman?',
-    correctAnswerIndex: 3,
+    '10. What is the comparative form of the adjective "good"?',
+    correctAnswerIndex: 2,
     options: [
-      'a) Starry Night',
-      'b) The Persistence of Memory',
-      'c) The Last Supper',
-      'd) Mona Lisa',
+      'a) more good',
+      'b) goodest',
+      'c) better',
+      'd) goodlier',
     ],
   ),
 ];
