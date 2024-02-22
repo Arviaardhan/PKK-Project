@@ -11,7 +11,7 @@ class ResultPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
-        mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const SizedBox(width: 1000),
           const Text(
@@ -21,6 +21,7 @@ class ResultPage extends StatelessWidget {
               fontWeight: FontWeight.w500,
             ),
           ),
+          SizedBox(height: 40,),
           Stack(
             alignment: Alignment.center,
             children: [
@@ -49,6 +50,13 @@ class ResultPage extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(height: 40,),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            child: Text('Back to HomePage'),
+          )
         ],
       ),
     );
